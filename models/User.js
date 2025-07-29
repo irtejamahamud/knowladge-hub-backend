@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { create } = require("../../LoginLogout/backend/models/User");
 
 const userSchema = new mongoose.Schema({
   username: { type: String, unique: true, required: true },
